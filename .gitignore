@@ -1,0 +1,20 @@
+# ---- local runtime state -------------------------------------------------
+bridge.port.json
+*.log
+*.prev
+
+# ---- local configuration (your own ports / active upstream) --------------
+bridge.settings.json
+
+# ---- subscription credentials & generated node data ----------------------
+companion-xray.json
+nodes-pool.json
+nodes-index.json
+happ-outbounds.bin
+happ-regions.bin
+
+# ---- build output --------------------------------------------------------
+OpenCode-Happ.exe
+*.exe.old-*
+bin/
+obj/
